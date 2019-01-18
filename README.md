@@ -18,4 +18,11 @@ cd ansible_videoschnitt-pc
 # Download needed submodules
 git submodule update --init --recursive
 ```
- 
+
+ Video Mixing Software
+-----------------------
+
+[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/#) is currently not installed automatically because it is not free software.
+
+You need to install it manually!
+
