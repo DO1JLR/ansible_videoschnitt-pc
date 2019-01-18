@@ -1,7 +1,7 @@
 ---
 
 - name: Install useful packages
-  hosts: thinkpad
+  hosts: tower
   tags: 
   - packages
   - updates
@@ -10,7 +10,7 @@
     - workstation_packages
 
 - name: Install useful dotfiles
-  hosts: thinkpad
+  hosts: tower
   tags: 
   - setup
   roles:
@@ -18,7 +18,7 @@
 
 
 - name: Install useful packages
-  hosts: thinkpad
+  hosts: tower
   tags: 
   - packages
   - i3wm

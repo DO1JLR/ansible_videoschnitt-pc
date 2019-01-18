@@ -1,2 +1,2 @@
-[thinkpad]
-t460p ansible_host="localhost" ansible_connection=local
+[tower]
+photofinish ansible_host="localhost" ansible_connection=local
