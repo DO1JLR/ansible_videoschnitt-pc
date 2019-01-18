@@ -26,4 +26,14 @@
     - copy_files
     - i3wm
 
+- name: Configure SSH Access
+  hosts: all
+  tags: 
+  - auth
+  - ssh
+  roles:
+    - ssh_auth
+    - sshd
+
+
 

@@ -1,5 +1,8 @@
 ---
 user: l3d
+users:
+  l3d:
+    - l3d
 admins:
   - l3d
 
