@@ -1,12 +1,19 @@
- Ansible Thinkpad Setup
+ DaVinci Resolve Setup
 ==========================
-My Ansible Setup for my Lenovo Thinkpad.
+My Ansible Setup for DaVici Resolve from blackmagic
+
+````
+currently not finished!
+````
+
 
  What is this playbook good for:
 --------------------------------
  + Install common usefull base packages
  + Create dotfiles like .bashrc and .vimrc
  + Setup and configure I3WM as Window Manager
+ + Don't install DaVinci requirements
+ + Don't install DaVinci Resolve
 
  Install instructions:
 -----------------------
